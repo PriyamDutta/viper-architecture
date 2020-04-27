@@ -11,7 +11,7 @@ import UIKit
 
 final class PostDetailWireFrame: PostDetailWireFrameProtocol {
     
-    var moduleDelegate: PostListDetailModeuleDelegate?
+    weak var moduleDelegate: PostListDetailModeuleDelegate?
     
     static var mainStoryboard: UIStoryboard {
         return UIStoryboard(name: "Main", bundle: Bundle.main)
